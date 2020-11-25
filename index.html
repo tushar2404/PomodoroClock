@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="device curved ">
+            <div class="display" id="div-bar">
+                <div class="num" id="disp"></div>
+            </div>
+             <div class="session">
+                 <h1 id="sess">Session 1</h1>
+            <hr />
+            </div>
+            <div class="func">
+                <div class="funcChild">
+                    <p style="color:white;">Session Time</p>
+                    <p style=" color: #00BDFE ;" id="countS"></p>
+                    <button class="curved butt" id="Plus_session">+</button>
+                    <button class="curved butt" id="Minus_session">-</button>
+                </div>
+                <div class="funcChild">
+                     <p style="color:white;">Break Time</p>
+                    <p style="  color: orange ;" id="countB">5 min</p>
+                    <button class="curved butt" id="Plus_break">+</button>
+                    <button class="curved butt" id="Minus_break">-</button>
+                </div>
+            </div>
+            <hr>
+            <div class="func">
+            <div class="funcChild"><button class="curved" id="Pause">Pause</button></div>
+            <div class="funcChild"><button class="curved" id="Reset">Reset</button></div>
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
